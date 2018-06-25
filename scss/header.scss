@@ -1,0 +1,43 @@
+/* Header */
+header {
+  font-family: "Dancing Script", cursive;
+  height: 100px;
+  background: linear-gradient(to top, #20527d, #63acec);
+  color: #fff;
+  display: flex;
+
+  .logo {
+    position: absolute;
+    top: 25px;
+    left: 90px;
+    background-image: url(images/CFDL-logo.svg);
+    height: 278px;
+    width: 278px;
+  }
+
+  h1 {
+    margin: auto;
+    font-weight: 400;
+    font-size: 55px;
+  }
+
+  nav {
+    position: absolute;
+    margin-right: 8%;
+    top: 13px;
+    right: 0;
+  }
+
+  ul {
+    list-style: none;
+    font-size: 26px;
+  }
+
+  li {
+    margin-bottom: 12px;
+  }
+
+  .icon {
+    margin-right: 20px;
+  }
+}

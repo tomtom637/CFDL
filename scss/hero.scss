@@ -1,0 +1,59 @@
+/* Hero */
+.hero {
+  position: absolute;
+  top: 123px;
+  left: 0;
+  height: calc(100% - 123px);
+  width: 100%;
+  display: flex;
+  background: url(images/svg-background.svg);
+  background-size: cover;
+  z-index: -1;
+
+  .hero-content-wrapper {
+    margin: auto;
+    padding-top: 123px;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .description {
+    h1,
+    p {
+      margin-bottom: 48px;
+    }
+
+    h1 {
+      color: #444;
+      font-size: 35px;
+    }
+
+    p {
+      line-height: 1.5;
+      font-size: 20px;
+    }
+
+    .cta {
+      color: $blue;
+      text-transform: uppercase;
+      font-size: 23px;
+      font-weight: 600;
+      padding: 15px;
+      width: 377px;
+      border: 1px solid $blue;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+  }
+
+  .dove {
+    background: url(images/dove.png);
+    width: 340px;
+    height: 340px;
+    background-size: cover;
+    transform: rotate(17deg);
+  }
+}
