@@ -41,3 +41,20 @@ header {
     margin-right: 20px;
   }
 }
+
+@media (max-width: 1450px) {
+  header {
+    .logo {
+      height: 150px;
+      width: 150px;
+    }
+
+    h1 {
+      font-size: 35px;
+    }
+
+    ul {
+      font-size: 22px;
+    }
+  }
+}
