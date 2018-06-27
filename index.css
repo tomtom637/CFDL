@@ -272,5 +272,13 @@ header {
   .hero .dove {
     width: 155px;
     height: 155px; } }
+@media (max-height: 565px) {
+  .hero .description {
+    margin-top: -35px; }
+    .hero .description h1,
+    .hero .description p {
+      margin-bottom: 15px; }
+  .hero .dove {
+    display: none; } }
 
 /*# sourceMappingURL=index.css.map */
