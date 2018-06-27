@@ -3,7 +3,6 @@
   position: absolute;
   top: 123px;
   left: 0;
-  height: 100%;
   width: 100%;
   display: flex;
   background: url(images/svg-background.svg);
@@ -63,7 +62,7 @@
   }
 }
 
-@media (max-width: 1130px) {
+@media (max-width: 1160px) {
   .hero {
     .hero-content-wrapper {
       flex-direction: column;
