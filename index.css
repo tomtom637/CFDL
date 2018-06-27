@@ -98,6 +98,11 @@ header {
   header .icon {
     margin-right: 20px; }
 
+@media (max-height: 650px) {
+  header .logo {
+    top: 0;
+    height: 140px;
+    width: 140px; } }
 @media (max-width: 1450px) {
   header .logo {
     height: 150px;
@@ -272,7 +277,7 @@ header {
   .hero .dove {
     width: 155px;
     height: 155px; } }
-@media (max-height: 565px) {
+@media (max-height: 565px) and (max-width: 1160px) {
   .hero .description {
     margin-top: -40px; }
     .hero .description h1,

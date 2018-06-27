@@ -134,7 +134,7 @@
   }
 }
 
-@media (max-height: 565px) {
+@media (max-height: 565px) and (max-width: 1160px) {
   .hero {
     .description {
       margin-top: -40px;

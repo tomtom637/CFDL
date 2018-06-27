@@ -50,6 +50,16 @@ header {
   }
 }
 
+@media (max-height: 650px) {
+  header {
+    .logo {
+      top: 0;
+      height: 140px;
+      width: 140px;
+    }
+  }
+}
+
 @media (max-width: 1450px) {
   header {
     .logo {
