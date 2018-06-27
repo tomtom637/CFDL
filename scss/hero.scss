@@ -11,7 +11,6 @@
 
   .hero-content-wrapper {
     margin: auto;
-    padding-top: 123px;
     width: 75%;
     display: flex;
     justify-content: space-between;
@@ -66,22 +65,71 @@
   .hero {
     .hero-content-wrapper {
       flex-direction: column;
+      justify-content: space-around;
+      height: 100%;
     }
     .description {
       text-align: center;
+
       h1,
       p {
-        margin-bottom: 30px;
+        margin-bottom: 40px;
+      }
+
+      h1 {
+        font-size: 30px;
+      }
+
+      p {
+        font-size: 17px;
+        line-height: 1.6;
       }
 
       .cta {
+        font-size: 17px;
+        width: 260px;
         margin: 0 auto;
       }
     }
+
     .dove {
-      margin-top: 70px;
       width: 200px;
       height: 200px;
+    }
+  }
+}
+
+@media (max-width: 620px) {
+  .hero {
+    .description {
+      h1 {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+@media (max-width: 460px) {
+  .hero {
+    .hero-content-wrapper {
+      width: 90%;
+    }
+    .description {
+      h1,
+      p {
+        margin-bottom: 25px;
+      }
+      h1 {
+        font-size: 24px;
+        text-transform: uppercase;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+    .dove {
+      width: 155px;
+      height: 155px;
     }
   }
 }

@@ -183,7 +183,6 @@ header {
   z-index: -1; }
   .hero .hero-content-wrapper {
     margin: auto;
-    padding-top: 123px;
     width: 75%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -235,17 +234,43 @@ header {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
-            flex-direction: column; }
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    height: 100%; }
   .hero .description {
     text-align: center; }
     .hero .description h1,
     .hero .description p {
-      margin-bottom: 30px; }
+      margin-bottom: 40px; }
+    .hero .description h1 {
+      font-size: 30px; }
+    .hero .description p {
+      font-size: 17px;
+      line-height: 1.6; }
     .hero .description .cta {
+      font-size: 17px;
+      width: 260px;
       margin: 0 auto; }
   .hero .dove {
-    margin-top: 70px;
     width: 200px;
     height: 200px; } }
+@media (max-width: 620px) {
+  .hero .description h1 {
+    font-size: 24px; } }
+@media (max-width: 460px) {
+  .hero .hero-content-wrapper {
+    width: 90%; }
+  .hero .description h1,
+  .hero .description p {
+    margin-bottom: 25px; }
+  .hero .description h1 {
+    font-size: 24px;
+    text-transform: uppercase; }
+  .hero .description p {
+    font-size: 14px; }
+  .hero .dove {
+    width: 155px;
+    height: 155px; } }
 
 /*# sourceMappingURL=index.css.map */
