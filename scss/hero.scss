@@ -3,7 +3,7 @@
   position: absolute;
   top: 123px;
   left: 0;
-  height: calc(100% - 123px);
+  height: 100%;
   width: 100%;
   display: flex;
   background: url(images/svg-background.svg);
@@ -60,5 +60,29 @@
     background-size: contain;
     background-repeat: no-repeat;
     transform: rotate(17deg);
+  }
+}
+
+@media (max-width: 1130px) {
+  .hero {
+    .hero-content-wrapper {
+      flex-direction: column;
+    }
+    .description {
+      text-align: center;
+      h1,
+      p {
+        margin-bottom: 30px;
+      }
+
+      .cta {
+        margin: 0 auto;
+      }
+    }
+    .dove {
+      margin-top: 70px;
+      width: 200px;
+      height: 200px;
+    }
   }
 }
