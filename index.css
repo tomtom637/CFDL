@@ -274,7 +274,7 @@ header {
     height: 155px; } }
 @media (max-height: 565px) {
   .hero .description {
-    margin-top: -35px; }
+    margin-top: -40px; }
     .hero .description h1,
     .hero .description p {
       margin-bottom: 15px; }
