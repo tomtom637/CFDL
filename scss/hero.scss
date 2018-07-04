@@ -33,6 +33,11 @@
       font-size: 20px;
     }
 
+    a {
+      text-decoration: none;
+      color: $blue;
+    }
+
     .cta {
       color: $blue;
       text-transform: uppercase;

@@ -63,6 +63,12 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   z-index: 5000; }
   header .logo {
     position: absolute;
@@ -72,8 +78,10 @@ header {
     background-image: url(images/CFDL-logo.svg);
     height: 200px;
     width: 200px; }
+  header a {
+    text-decoration: none;
+    color: #fff; }
   header h1 {
-    margin: auto;
     font-weight: 400;
     font-size: 55px; }
   header nav {
@@ -211,6 +219,9 @@ header {
   .hero .description p {
     line-height: 1.5;
     font-size: 20px; }
+  .hero .description a {
+    text-decoration: none;
+    color: #257fbb; }
   .hero .description .cta {
     color: #257fbb;
     text-transform: uppercase;

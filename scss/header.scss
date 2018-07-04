@@ -9,6 +9,8 @@ header {
   background: linear-gradient(to top, #20527d, #63acec);
   color: #fff;
   display: flex;
+  justify-content: center;
+  align-items: center;
   z-index: 5000;
 
   .logo {
@@ -21,8 +23,12 @@ header {
     width: 200px;
   }
 
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
   h1 {
-    margin: auto;
     font-weight: 400;
     font-size: 55px;
   }
