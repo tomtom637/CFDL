@@ -38,7 +38,8 @@ html {
           box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   color: #333;
-  background: #f2f2f2; }
+  background: #f2f2f2;
+  scroll-behavior: smooth; }
 
 *,
 *:before,
@@ -215,7 +216,8 @@ header {
     margin-bottom: 48px; }
   .hero .description h1 {
     color: #444;
-    font-size: 35px; }
+    font-size: 25px;
+    text-transform: uppercase; }
   .hero .description p {
     line-height: 1.5;
     font-size: 20px; }
@@ -264,7 +266,7 @@ header {
     .hero .description p {
       margin-bottom: 40px; }
     .hero .description h1 {
-      font-size: 30px; }
+      font-size: 23px; }
     .hero .description p {
       font-size: 17px;
       line-height: 1.6; }
@@ -277,16 +279,15 @@ header {
     height: 200px; } }
 @media (max-width: 620px) {
   .hero .description h1 {
-    font-size: 24px; } }
-@media (max-width: 460px) {
+    font-size: 19px; } }
+@media (max-width: 465px) {
   .hero .hero-content-wrapper {
     width: 90%; }
   .hero .description h1,
   .hero .description p {
     margin-bottom: 25px; }
   .hero .description h1 {
-    font-size: 19px;
-    text-transform: uppercase; }
+    font-size: 19px; }
   .hero .description p {
     font-size: 14px; }
   .hero .dove {
