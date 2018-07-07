@@ -1,0 +1,56 @@
+/* Map */
+#find-us:focus {
+  outline: none;
+}
+.find-us-wrapper {
+  padding: 50px 0;
+}
+.find-us {
+  max-width: 1300px;
+  margin: 40px auto 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#map {
+  width: 700px;
+  height: 400px;
+}
+.information {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 1.9;
+  font-weight: 600;
+}
+.information .email {
+  text-transform: lowercase;
+}
+.information a {
+  color: $blue;
+  text-decoration: none;
+  border-bottom: 1px solid $blue;
+}
+@media (max-width: 1200px) {
+  .atelier {
+    width: 100%;
+    height: auto;
+  }
+  .picture-wrapper {
+    padding: 0;
+  }
+  .find-us-wrapper {
+    padding: 5px 0;
+  }
+  .find-us {
+    padding: 0;
+    flex-direction: column-reverse;
+  }
+  .information {
+    margin-bottom: 40px;
+  }
+  #map {
+    width: 100%;
+  }
+}
