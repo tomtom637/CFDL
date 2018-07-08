@@ -4,6 +4,8 @@
 }
 .find-us-wrapper {
   padding: 50px 0;
+  background: #333;
+  color: #fff;
 }
 .find-us {
   max-width: 1300px;
@@ -29,6 +31,7 @@
 }
 .information a {
   color: $blue;
+  font-size: 18px;
   text-decoration: none;
   border-bottom: 1px solid $blue;
 }

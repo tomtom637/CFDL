@@ -1,0 +1,23 @@
+{
+  "name": "funerarium-de-lattes",
+  "version": "1.0.0",
+  "description": "A french funeral home website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomtom637/CFDL.git"
+  },
+  "author": "thomas lacombe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomtom637/CFDL/issues"
+  },
+  "homepage": "https://github.com/tomtom637/CFDL#readme",
+  "dependencies": {
+    "app": "^0.1.0",
+    "jquery": "^3.3.1"
+  }
+}

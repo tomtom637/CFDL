@@ -1,8 +1,8 @@
 /* Icomoon */
 @font-face {
   font-family: "icomoon";
-  src: url("fonts/icomoon.eot?9yqu44");
-  src: url("fonts/icomoon.eot?9yqu44#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?9yqu44") format("truetype"), url("fonts/icomoon.woff?9yqu44") format("woff"), url("fonts/icomoon.svg?9yqu44#icomoon") format("svg");
+  src: url("icomoon.f73c805e.eot?9yqu44");
+  src: url("icomoon.f73c805e.eot?9yqu44#iefix") format("embedded-opentype"), url("icomoon.ef81dd0d.ttf?9yqu44") format("truetype"), url("icomoon.cd2804a9.woff?9yqu44") format("woff"), url("icomoon.ac101d89.svg?9yqu44#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"],
@@ -75,7 +75,7 @@ header {
     top: 25px;
     left: 0;
     margin-left: 8%;
-    background-image: url(images/CFDL-logo.svg);
+    background-image: url(CFDL-logo.67530695.svg);
     height: 200px;
     width: 200px; }
   header a {
@@ -195,7 +195,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: url(images/svg-background.svg);
+  background: url(svg-background.0fe9b904.svg);
   background-size: cover;
   z-index: -1; }
   .hero .hero-content-wrapper {
@@ -242,7 +242,7 @@ header {
     .hero .description .cta .icon {
       font-size: 25px; }
   .hero .dove {
-    background: url(images/dove.png);
+    background: url(dove.af7268a3.png);
     width: 340px;
     height: 340px;
     background-size: contain;
