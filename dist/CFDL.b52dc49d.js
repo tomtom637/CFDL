@@ -169,7 +169,7 @@ module.exports = reloadCSS;
 var reloadCSS = require('_css_loader');
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./fonts\\icomoon.eot":27,"./fonts\\icomoon.ttf":28,"./fonts\\icomoon.woff":29,"./fonts\\icomoon.svg":30,"./images\\CFDL-logo.svg":31,"./images\\svg-background.svg":32,"./images\\dove.png":33,"_css_loader":34}],19:[function(require,module,exports) {
+},{"./fonts\\icomoon.eot":27,"./fonts\\icomoon.ttf":28,"./fonts\\icomoon.woff":29,"./fonts\\icomoon.svg":30,"./images\\CFDL-logo.svg":31,"./images\\svg-background.svg":32,"./images\\dove.png":33,"_css_loader":34}],26:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -198,7 +198,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '51897' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '56965' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -418,4 +418,4 @@ LazyPromise.prototype.catch = function (onError) {
 };
 },{"./bundle-url":50}],0:[function(require,module,exports) {
 var b=require(30);b.load([["icomoon.f73c805e.eot",27],["icomoon.ef81dd0d.ttf",28],["icomoon.cd2804a9.woff",29],["icomoon.ac101d89.svg",30],["CFDL-logo.67530695.svg",31],["svg-background.0fe9b904.svg",32],["dove.af7268a3.png",33]]);
-},{}]},{},[19,0], null)
+},{}]},{},[26,0], null)

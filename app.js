@@ -1,5 +1,5 @@
-import { heroHeight, gMap, smoothScroll } from "./helperFunctions";
+import { gMap, heroHeight, smoothScroll } from "./helperFunctions";
 
-heroHeight();
 gMap();
+heroHeight();
 smoothScroll();
